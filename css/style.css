@@ -450,8 +450,8 @@ color: #4B4B4B;
     max-width: 1110px;
     margin: 0px auto;
 }
-.cardmargin2:not(:last-child){
-margin-right: 20px;
+.cardmargin2{
+margin-right: 19px;
 }
 .cardcontenttask2 {
     max-width: 255px;
@@ -493,8 +493,8 @@ letter-spacing: -0.1625px;
     margin-top: 10px;
     margin-bottom: 24px;
 }
-.cardheadtask2:hover:after{
-background-color: #000000;
+.cardcontenttask2:hover .cardheadtask2::after{
+    background-color: #000000;
 }
 
 
